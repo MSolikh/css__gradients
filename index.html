@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background generator</title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body id="body"> 
+    <div class="generate1">
+
+        <h1> A Random Background Generator With 2 Colors</h1>
+        <button id="random" type="button">GENERATE 1</button>
+    
+        <div class="text">
+            <p id=propertyValue>Click "GENERATE 1" to create a random linear gradient with 2 colors.</p>
+            <ion-icon name="copy-outline" class="img" title="copy"></ion-icon>
+        </div>
+
+    </div>
+
+    <div class="generate2">
+        
+        <h1> A Random Background Generator With 3 Colors</h1>
+
+        <button id="random2" type="button">GENERATE 2</button>
+
+        <div class="text">
+            <p id=propertyValue2>Click "GENERATE" to create a random linear gradient with 3 colors.    </p>
+            <ion-icon name="copy-outline" class="img1" title="copy"></ion-icon>
+        </div>
+
+    </div>
+
+    <div class="generate3">
+
+        <p id="takecontrol">Take control of the colors you see with these two puppies !</p>
+
+        <input id="color1" type="color" name="color1" value="#ff0000">
+        <input id="color2" type="color" name="color2" value="#0000ff">
+    
+        <div class="text">
+            <p id="showcolors">Click on either color inputs to select a color from the palette.</p>
+            <ion-icon name="copy-outline" class="img2" title="copy"></ion-icon>
+        </div>
+
+    </div>
+    
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
